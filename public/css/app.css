@@ -11,17 +11,24 @@
     background-color: #3c9;
 
 }
+.container .navbar {
+    display: flex;
+    align-items: center;
+    padding: 0px 30px;
+}
+
+.container .navbar .logo {
+    flex-grow: 1;
+}
+
 .container .navbar .logo a{
     text-decoration: none;
     color:white;
     display: inline-block;    
     width: 50%;
     font-size: larger;
-    float: left;
     font-weight: bold;
-    padding-left: 30px;
     padding-top: 40px;
-   
 }
 
 ul {
@@ -34,7 +41,7 @@ ul {
   }
   
   li {
-    float: left;
+      display: inline-block;
     padding-left: 10px;
   }
   
@@ -56,7 +63,6 @@ ul {
   }
   
   .container .navbar .login button{
-    float:right;
     background-color: #1c5e48;
     border-radius: 30px;
      border: none;
@@ -111,7 +117,8 @@ ul {
      margin: 4px 2px;
      cursor: pointer;
 }
-  .container .clipart{
-    pos;
 
-  }
+.clipart {
+    display: flex;
+    justify-content: flex-end;
+}

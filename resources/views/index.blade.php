@@ -22,6 +22,7 @@
                 <li><a href="#">About us</a></li>
             </ul>
             <div class="login"><button>LogIn</button>
+            </div>
         </div>
         <div class="slogan"><h1>
             Add a joy of best <br>taste.</br>
