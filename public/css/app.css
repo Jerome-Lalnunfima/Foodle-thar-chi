@@ -9,6 +9,7 @@
 
 .container{
     background-color: #3c9;
+
 }
 .container .navbar .logo a{
     text-decoration: none;
@@ -38,8 +39,8 @@ ul {
   }
   
   li a {
-    display:inline-block;
     color: white;
+    display: inline-block;
     text-align: center;
     padding: 20px;
     padding-left: 20px;
@@ -48,16 +49,29 @@ ul {
   
   li a:hover {
     background-color: #1c5e48;
+      
   }
-  ul li:nth-child(6) {
+  .container .navbar .login{
+  padding: auto;
+  }
+  
+  .container .navbar .login button{
+    float:right;
     background-color: #1c5e48;
     border-radius: 30px;
-    
+     border: none;
+     color: white;
+     padding:10px;
+     text-align: center;
+     display: inline-block;
+      font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
   }
   .container .slogan{
     
       font-size: larger;
-      padding: 20px;
+      padding-top: 15px;
       padding-left: 30px;
       color:white;
       letter-spacing: 2px;
@@ -69,4 +83,35 @@ ul {
       padding:30px;
       letter-spacing: 1px;
       font-weight: lighter;
+  }
+  .container .butts .explorebutt{
+      background-color: #1c5e48;
+      border-radius: 30px;
+       border: none;
+       color: white;
+       padding:10px;
+       text-align: center;
+       display: inline-block;
+        font-size: 16px;
+       margin: 4px 2px;
+       cursor: pointer;
+  }
+  .container .butts{
+    padding-left: 60px;
+  }
+  .container .butts .buynowbutt{
+    background-color: #ff9100f5;
+    border-radius: 30px;
+     border: none;
+     color: white;
+     padding: 10px;
+     text-align: center;
+     display: inline-block;
+      font-size: 16px;
+     margin: 4px 2px;
+     cursor: pointer;
+}
+  .container .clipart{
+    pos;
+
   }

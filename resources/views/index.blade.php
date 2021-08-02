@@ -12,7 +12,7 @@
 </head>
 <body>
     <div class="container">
-        <div class="navbar">
+            <div class="navbar">
             <div class="logo"><a href="#">Foodle</a></div>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -20,13 +20,21 @@
                 <li><a href="#">Browse</a></li>
                 <li><a href="#">Post</a></li>
                 <li><a href="#">About us</a></li>
-                <li><a href="#">Log in</a></li>
             </ul>
+            <div class="login"><button>LogIn</button>
         </div>
         <div class="slogan"><h1>
             Add a joy of best <br>taste.</br>
         </h1></div>
         <div class="sloganext">About 100+ Sellers bring out their delicious food <br>to be delivered at your doorstep.</br></div>
+        <div class="butts"> <a href="#">
+        <button class="explorebutt">Explore</button>
+        </a>
+        <a href="#">
+        <button class="buynowbutt">Buy Now</button>
+        </a> 
+        </div>
+        <div class="clipart"><img src="{{ URL::asset('img/egg.png') }}" alt="#"></div>
     </div>
 </body>
-</html>
+</html> 
